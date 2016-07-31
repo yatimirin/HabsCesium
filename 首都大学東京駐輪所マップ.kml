@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>首都大学東京駐輪所マップ.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>a6ff00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2ff00ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>a6ff00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2ff00ff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>首都大学東京駐輪所マップ</name>
+		<open>1</open>
+		<Placemark>
+			<name>駐輪所①</name>
+			<description>１号館、４・５号館へのアクセスに便利
+比較的に混みやすい。</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							139.3662188447725,35.66159313803352,0 139.3662765848385,35.66162353906253,0 139.3659800164429,35.66202790268471,0 139.3659228348332,35.66199994281364,0 139.3662188447725,35.66159313803352,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>駐輪所②</name>
+			<description>2号館へのアクセスに便利
+混み具合はまちまち。通行人に迷惑をかける可能性あり。</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							139.3676884623797,35.66107080123025,0 139.3675645875107,35.66098591658094,0 139.3675007539108,35.66099430835299,0 139.367461832995,35.66096711426331,0 139.3673220266406,35.66096711510353,0 139.3672545848442,35.66096503316856,0 139.367261946926,35.66093601422398,0 139.3674665467503,35.66092997182537,0 139.3675701765914,35.66096503103011,0 139.3677004438052,35.66105364981069,0 139.3676884623797,35.66107080123025,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>駐輪所③</name>
+			<description>体育館脇の駐輪所
+どこの建物の場所へのアクセスが悪いため、比較的空いている。</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							139.3675116742646,35.66074154791154,0 139.3680223673853,35.6607049395528,0 139.3680249171904,35.66072875124775,0 139.3675102237916,35.66076552007374,0 139.3675116742646,35.66074154791154,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>駐輪所④</name>
+			<description>屋根付きの駐輪所
+バイクもたくさん留められている。右側の方は比較的空いている。</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							139.3670021353941,35.66037137082427,0 139.3671770047896,35.6603626174993,0 139.3671865842816,35.66044782690366,0 139.3670070592157,35.6604585719769,0 139.3670021353941,35.66037137082427,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
